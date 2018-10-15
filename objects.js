@@ -4,12 +4,12 @@ var playlist = { artistnames: 'song titles'
       playlist.songTitle  = 'My Bloody Valentine';
       playlist.artistName = 'Phil Ochs';
 
-function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  object[key] = 'Phil Ochs'
+function updatePlaylist(playlist, artistName, songTitle) {
+  Object.assign({}, { playlist: 'Phil Ochs' });
  
   return playlist;
 }
-Object.assign({}, { foo: 'bar' })
+
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
