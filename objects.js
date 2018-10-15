@@ -10,7 +10,8 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 
-function removeFromPlaylist({ Object (artistnames, Slowdive, ...) {
+function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
+  return playlist;
 }
 
