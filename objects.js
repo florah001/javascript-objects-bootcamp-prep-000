@@ -9,6 +9,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
  
   return playlist;
 }
+Object.assign({}, { foo: 'bar' })
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
