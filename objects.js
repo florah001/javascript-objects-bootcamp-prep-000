@@ -5,8 +5,9 @@ var playlist = { artistnames: 'song titles'
       playlist.artistName = 'Phil Ochs';
 
 function updatePlaylist(playlist, 'artistName', songTitle) {
+  add the song and artist as a key-value pair to the playlist object.
   Object.assign({}, { playlist: 'Phil Ochs' });
-  return ('Phil Ochs');
+  return playlist;
 }
 
 
