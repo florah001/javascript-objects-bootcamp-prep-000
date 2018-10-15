@@ -7,7 +7,9 @@ function updatePlaylist(playlist, artistName, songTitle) {
    Object.assign({}, 'Slowdive', { ['Phil Ochs']: 'My Bloody Valentine'});
    return playlist;
 }
+
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
 }
 
+  1) objects updatePlaylist(playlist, artistName, songTitle) adds the `artistName: songTitle` key-value pair to `playlist`:
