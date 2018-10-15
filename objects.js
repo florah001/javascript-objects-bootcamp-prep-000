@@ -12,4 +12,7 @@ function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
 }
 
-  1) objects updatePlaylist(playlist, artistName, songTitle) adds the `artistName: songTitle` key-value pair to `playlist`:
+/*objects updatePlaylist(playlist, artistName, songTitle) adds the `artistName: songTitle` key-value pair to `playlist`:
+        AssertionError: expected { Object (artistnames, Slowdive, ...) } to contain keys 'Slowdive', 'My Bloody Valentine', and 'Phil Ochs'
+      + expected - actual
+*/
